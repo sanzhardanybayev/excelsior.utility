@@ -15,7 +15,7 @@
 
 .noTopMargin
 {
-	margin-top:  0 !important;	
+	margin-top:  0 !important;
 }
 
 .noBottomMargin
@@ -40,7 +40,7 @@
 
 .noTopPadding
 {
-	padding-top:  0 !important;	
+	padding-top:  0 !important;
 }
 
 .noBottomPadding
@@ -115,4 +115,24 @@
 {
   display: block;
   margin:0 auto !important;
+}
+
+.blackDiv{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  background: rgba(0,0,0,0.5);
+  height: 100%;
+}
+
+
+.dots{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  background: url('/img/dotgrain.gif');
+  opacity: 0.1;
+  height: 100%;
 }
